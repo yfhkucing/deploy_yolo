@@ -113,3 +113,4 @@ class customDetection:
         
 # Create a new object and execute.
 detector = customDetection(capture_index=0,model_name='drone.pt')
+

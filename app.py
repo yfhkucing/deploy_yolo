@@ -3,7 +3,8 @@ from yolo_deploy import customDetection
 
 
 def main():
-    detect = customDetection(capture_index=0,model_name='yolov5n.pt')
+    model = 'models\yolov5n.pt'
+    detect = customDetection(capture_index=0,model_name=model)
     detect()
 
 if __name__ == '__main__':

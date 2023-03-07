@@ -22,7 +22,6 @@ class customDetection:
         Creates a new video streaming object to extract video frame by frame to make prediction on.
         :return: opencv2 video capture object, with lowest quality frame available for video.
         """
-      
         return cv2.VideoCapture(self.capture_index)
 
     def load_model(self, model_name):

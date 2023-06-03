@@ -3,7 +3,7 @@ from yolo_deploy import customDetection
 
 
 def main():
-    model = 'models\yolov5n.pt'
+    model = 'models\drone_survivor.pt'
     detect = customDetection(capture_index=0,model_name=model)
     detect()
 
